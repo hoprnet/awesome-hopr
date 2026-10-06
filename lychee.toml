@@ -1,0 +1,11 @@
+# Link checker configuration, see https://lychee.cli.rs/usage/config/
+
+max_retries = 3
+timeout = 20
+accept = ["200..=299", "429"]
+
+# These sites reject automated requests with 403 even when the page exists.
+exclude = [
+  "^https://medium\\.com/",
+  "^https://www\\.reddit\\.com/",
+]
