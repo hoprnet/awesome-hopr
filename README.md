@@ -56,6 +56,7 @@ HOPR routes packets through multiple relay nodes using Sphinx packet encryption,
 ## Applications
 
 - [Gnosis VPN](https://vpn.gnosis.eth.limo) - Privacy-preserving VPN built on the HOPR mixnet ([client source](https://github.com/gnosis/gnosis_vpn-client)).
+- [hopr-chat](https://github.com/majchrzamemil/hopr-chat) - Anonymous peer-to-peer messenger over HOPR sessions, with a terminal UI and a desktop and Android app.
 - [myTokenTracker](https://mytokentracker.xyz) - Demo showing how dApp users can be identified by linking their Ethereum address to their IP address.
 
 ## Research
