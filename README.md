@@ -33,7 +33,7 @@ HOPR routes packets through multiple relay nodes using Sphinx packet encryption,
 - [hopli](https://github.com/hoprnet/hopli) - CLI for operator workflows: identities, node funding, Safe and module setup, and on-chain configuration.
 - [hoprd](https://github.com/hoprnet/hoprd) - Full HOPR node daemon exposing a REST API.
 - [hoprd Kubernetes Operator](https://github.com/hoprnet/hoprd-operator) - Kubernetes operator built on kube-rs for managing `hoprd` nodes.
-- [Node Admin UI](https://github.com/hoprnet/node-admin-ui) - Web app for managing a `hoprd` node through its REST API.
+- [Node Admin UI](https://github.com/mjadach-iv/hopr_node-admin-ui) - Web app for managing a `hoprd` node through its REST API.
 
 ## Libraries and SDKs
 
