@@ -13,6 +13,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ${{ github.event.pull_request.number || github.ref }}-lint
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 jobs:
   awesome-lint:
     runs-on: ubuntu-latest
