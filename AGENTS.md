@@ -14,7 +14,7 @@ Curated [awesome list](https://github.com/sindresorhus/awesome) of HOPR resource
 | `README.md` | The list itself |
 | `contributing.md` | Inclusion criteria and entry format |
 | `lychee.toml` | Link checker config, including domains that block bots |
-| `.github/workflows/lint.yml` | awesome-lint and link check on PRs, pushes to `main`, and weekly |
+| `.github/workflows/pr.yaml` | awesome-lint and link check on PRs, pushes to `main`, and weekly |
 | `flake.nix` | Dev shell with Node.js and lychee |
 
 ## Entry Rules
